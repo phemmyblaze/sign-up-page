@@ -61,7 +61,7 @@ body {
   box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.26);
 }
 
-.right span {
+.right h3 span {
   color: hsl(246, 25%, 77%);
 }
 
@@ -110,7 +110,11 @@ button {
   margin-bottom: 15px;
 }
 
-.right span .mini {
+h6 {
+  color: hsl(246, 25%, 77%);
+}
+
+.right h6 span {
   color: rgb(224, 127, 127);
 }
 
