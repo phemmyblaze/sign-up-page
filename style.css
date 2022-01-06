@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+}
+
+.container {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.left {
+  width: 40%;
+  margin-top: 18%;
+  padding-left: 30px;
+}
+.left h1 {
+  color: #fff;
+  font-family: "Poppins" sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 1;
+  padding-bottom: 5px;
+}
+
+.left p {
+  color: #fff;
+  font-family: "Poppins" sans-serif;
+  font-size: 1em;
+}
+
+.right {
+  margin-top: 8%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.right h3 {
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.26);
+}
+
+.right span {
+  color: hsl(246, 25%, 77%);
+}
+
+form {
+  width: 550px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.26);
+}
+
+input {
+  width: 450px;
+  height: 60px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgrey;
+  font-size: 15px;
+}
+
+input placeholder {
+  color: hsl(249, 10%, 26%);
+  font-weight: bold;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 600;
+  width: 450px;
+  height: 60px;
+  border: none;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(22, 22, 22);
+  border-radius: 5px;
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.right span .mini {
+  color: rgb(224, 127, 127);
+}
+
+footer {
+  margin-top: 10px;
+}
