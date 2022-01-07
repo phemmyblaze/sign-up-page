@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins" sans-serif;
   font-size: 16px;
   background-color: hsl(0, 100%, 74%);
   height: 100vh;
@@ -16,7 +16,7 @@ body {
   background-image: url(./images/bg-intro-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: cover;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -108,6 +108,7 @@ button {
   color: #fff;
   margin-top: 15px;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 h6 {
@@ -120,4 +121,76 @@ h6 {
 
 footer {
   margin-top: 10px;
+}
+
+@media (min-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .container {
+    background-image: url(./images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1100px;
+  }
+
+  .left {
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .left p {
+    font-size: 1em;
+  }
+
+  .left h1 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .left p {
+    text-align: center;
+  }
+
+  .right {
+    padding: 8px;
+    margin: 10px;
+  }
+  .right h3 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    width: 325px;
+    padding: 10px;
+    height: 400px;
+  }
+
+  input {
+    width: 250px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  button {
+    font-size: 15px;
+    font-weight: 700;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  footer {
+    visibility: hidden;
+  }
 }
